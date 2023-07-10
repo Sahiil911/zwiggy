@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+}
+.logo{
+    width: 100px;
+}
+
+.points > ul{
+    display: flex;
+}
+.points > ul > li{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+.res-card{
+    width: 233px;
+    margin: 14px;
+    padding: 20px;
+    border: 1px solid black;
+
+
+}
+.res-card :hover{
+    cursor: pointer;
+    background-color: #f0f0f0;
+
+
+}
+.dom{
+    width: 100%;
+    height: 140px;
+}
+.restaurent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.jh{
+    margin: -9px;
+}
+.filter-btn{
+    margin: 15px;;
+}
